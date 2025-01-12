@@ -3,8 +3,7 @@
   - [2. Install JDK 21 along with GraalVM](#2-install-jdk-21-along-with-graalvm)
 - [Build and test](#build-and-test)
   - [1. Build project to create native binary](#1-build-project-to-create-native-binary)
-  - [2. Give execute permission](#2-give-execute-permission)
-  - [3. Test](#3-test)
+  - [2. Test](#2-test)
 
 # Setup
 
@@ -37,12 +36,7 @@ Finished generating 'ar-helloworld' in 22.0s.
 [INFO] ------------------------------------------------------------------------
 ```
 
-## 2. Give execute permission
-```sh
-chmod +x target/ar-helloworld
-```
-
-## 3. Test
+## 2. Test
 ```sh
 ./target/ar-helloworld
 ```
